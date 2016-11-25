@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManagaer", "MediaManagaer\MediaManagaer.csproj", "{E70EA928-9591-431E-9ACF-5F1A579F1371}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaManager", "..\TechableMovieManager\TechableMovieManager\TechableMovieManager\MediaManager.csproj", "{44CA9BED-A666-4496-A326-8EC24FB08C32}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MediaDB", "MediaDB\MediaDB.sqlproj", "{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E70EA928-9591-431E-9ACF-5F1A579F1371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E70EA928-9591-431E-9ACF-5F1A579F1371}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E70EA928-9591-431E-9ACF-5F1A579F1371}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E70EA928-9591-431E-9ACF-5F1A579F1371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CA9BED-A666-4496-A326-8EC24FB08C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CA9BED-A666-4496-A326-8EC24FB08C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CA9BED-A666-4496-A326-8EC24FB08C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CA9BED-A666-4496-A326-8EC24FB08C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A6F808D-9025-4F9F-9F73-BFE8D410DA75}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
