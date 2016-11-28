@@ -12,9 +12,18 @@ namespace MediaManager
 {
     public partial class MainMenu : Form
     {
-        public MainMenu()
+        private Form loginMenu;
+
+        public MainMenu(Form loginMenu)
         {
+            this.loginMenu = loginMenu;
+
             InitializeComponent();
+        }
+
+        private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -16,6 +16,11 @@ namespace MediaManager
             return new MediaDSTableAdapters.UsersTableAdapter();
         }
 
+        public static void disposeAdapter()
+        {
+            if (adapter != null) adapter.Dispose();
+        }
+
         public static DataTable getAll()
         {
             DataTable table;
