@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Check.cs" />
-    <Compile Include="DBTable.cs" />
     <Compile Include="GlobalControl.cs" />
     <Compile Include="LoginMenu.cs">
       <SubType>Form</SubType>
