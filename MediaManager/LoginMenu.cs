@@ -16,6 +16,9 @@ namespace MediaManager
         {
             InitializeComponent();
 
+            //Set positions within login form
+            setupLoginForm();
+
             //set colors on login menu
             this.BackColor = Color.SteelBlue;
             GlobalControl.setButtonColor(this, Color.Goldenrod);
@@ -63,6 +66,22 @@ namespace MediaManager
         private void LoginMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        public void setupLoginForm()
+        {
+            double endOfText;
+            double endOfLabels;
+            
+            endOfLabels = Reposition.setLabels(0.2, login1Lbl, login2Lbl);
+            endOfText = Reposition.setTextBoxes(0.2, login1Txt, login2Txt);
+
+            Reposition.setControlLocation(login1Btn, .4, endOfText);
+        }
+
+        private void LoginMenu_Resize(object sender, EventArgs e)
+        {
+            setupLoginForm();
         }
     }
 }
