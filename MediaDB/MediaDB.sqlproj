@@ -60,6 +60,14 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Publishers.sql" />
-    <Build Include="ISBNs.sql" />
+    <Build Include="Books.sql" />
+    <Build Include="Authors.sql" />
+    <Build Include="Contributions.sql" />
+    <Build Include="Series.sql" />
+    <Build Include="Readings.sql" />
+    <Build Include="User.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="MediaDB.refactorlog" />
   </ItemGroup>
 </Project>

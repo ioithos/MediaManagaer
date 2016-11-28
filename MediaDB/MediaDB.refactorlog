@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="53c275f4-c6c0-48a0-b1f1-3a2c8efabfd7" ChangeDateTime="11/25/2016 01:28:20">
+    <Property Name="ElementName" Value="[dbo].[ISBNs].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ISBNs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="311ba839-436c-4bf6-914f-feafa7574981" ChangeDateTime="11/25/2016 01:30:26">
+    <Property Name="ElementName" Value="[dbo].[ISBNs].[name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ISBNs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="isbn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9a48ef8-3bcf-4e02-b4d6-f527a5555eb4" ChangeDateTime="11/25/2016 01:34:00">
+    <Property Name="ElementName" Value="[dbo].[Publishers].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Publishers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="publisherId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8bb33a1c-9b72-4caf-85d1-e9a3109dc94c" ChangeDateTime="11/25/2016 01:44:21">
+    <Property Name="ElementName" Value="[dbo].[Authors].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Authors]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="authorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="48a44199-24ff-4614-8ed6-a89d2fe880db" ChangeDateTime="11/25/2016 01:44:59">
+    <Property Name="ElementName" Value="[dbo].[Authors].[LastName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Authors]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="lastName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="196c219a-ae49-476c-a02b-94e69d46826f" ChangeDateTime="11/25/2016 01:57:12">
+    <Property Name="ElementName" Value="[dbo].[Series].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Series]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seiresId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="845f134c-1322-4e59-9034-d94234bfa200" ChangeDateTime="11/25/2016 01:57:19">
+    <Property Name="ElementName" Value="[dbo].[Series].[seiresId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Series]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="seriesId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a3ab03f-7482-49c1-b2d8-c500a190b60d" ChangeDateTime="11/25/2016 01:59:12">
+    <Property Name="ElementName" Value="[dbo].[ISBNs].[version]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ISBNs]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="volume" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="851a3ea0-818a-4739-b2b0-670b0f2ea4c4" ChangeDateTime="11/25/2016 02:09:35">
+    <Property Name="ElementName" Value="[dbo].[Readings].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Readings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="isbn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="414bc381-5e63-4ebd-adb0-fcda979c2d13" ChangeDateTime="11/25/2016 02:09:57">
+    <Property Name="ElementName" Value="[dbo].[Readings].[isbn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Readings]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="redingId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1951a10e-f2b9-4068-85c1-c486a559b9b7" ChangeDateTime="11/25/2016 06:30:59">
+    <Property Name="ElementName" Value="[dbo].[User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="userName" />
+  </Operation>
+</Operations>

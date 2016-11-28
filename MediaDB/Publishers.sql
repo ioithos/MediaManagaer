@@ -1,4 +1,7 @@
 ﻿CREATE TABLE [dbo].[Publishers]
 (
-	[Id] INT NOT NULL PRIMARY KEY
+	[publisherId] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [publisherName] NCHAR(50) NOT NULL, 
+    [parentCompany] NCHAR(50) NOT NULL, 
+    [country] NCHAR(50) NOT NULL
 )
